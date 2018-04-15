@@ -5,8 +5,8 @@
 </head>
 <body>
 <table width="100%"><tr>
-<td align="left"><a href="s5.md">Назад</a></td>
-<td align="center"><a href="README.md">Вверх</a></td>
+<td align="left"><a href="s5.html">Назад</a></td>
+<td align="center"><a href="index.html">Вверх</a></td>
 </tr></table>
 
 <p>Данный раздел посвящён документированию наработок по проектированию
@@ -458,8 +458,8 @@ href="http://tools.ietf.org/html/rfc7405">IETF RFC 7405</a> (для
 обязательна.</p>
 
 <table width="100%"><tr>
-<td align="left"><a href="s5.md">Назад</a></td>
-<td align="center"><a href="README.md">Вверх</a></td>
+<td align="left"><a href="s5.html">Назад</a></td>
+<td align="center"><a href="index.html">Вверх</a></td>
 </tr></table>
 </body>
 <!-- vim:tw=72:et:
