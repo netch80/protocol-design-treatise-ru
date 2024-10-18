@@ -221,7 +221,7 @@ void set_bit(void *bit_field_start, unsigned index)
 <ul>
 <li>ACCESS_TYPE = uint8_t, BITS_PER_CHUNK = 8;</li>
 <li>ACCESS_TYPE = uint16_t, BITS_PER_CHUNK = 16;</li>
-<ul>
+</ul>
 <p>и так далее.</p>
 
 <p>(Разумеется, для всех реально встреченных случаев, когда CHAR_BIT
@@ -229,7 +229,7 @@ void set_bit(void *bit_field_start, unsigned index)
 сдвигов и логического "и" по маске.)</p>
 
 <p>См. ниже про аналогичную закономерность для big-endian. В <a
-href="s3.html">главе про двоичные форматы</a> приведён пример, как
+href="s3.md">главе про двоичные форматы</a> приведён пример, как
 нарушение этого подхода может вызвать разрыв битового поля на разные
 части.</p>
 
