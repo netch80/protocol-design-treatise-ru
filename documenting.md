@@ -426,6 +426,16 @@ check for ones in bits 81-96.
 выравнивания - это <code>__attribute__((packed))</code> для GCC и
 <code>#pragma pack(1)</code> для компиляторов Microsoft.</p>
 
+<p>Типичное описание в таком стиле:</p>
+<pre></code>
+struct foo {
+    uint32_t boo;
+    uint16_t foo;
+    uint16_t reserved;
+    uint64_t bar;
+} __attribute((packed));
+</code></pre>
+
 <p>Как правило, такие свойства формата, как порядок байт, едины для всей
 посылки. (Заметные исключения: ISO9660, где ключевые поля записываются в
 двух копиях; каждая для своего порядка; IPMI, где ASF транспорт
